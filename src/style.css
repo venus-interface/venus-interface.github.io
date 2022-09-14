@@ -1,0 +1,178 @@
+@import '~antd/dist/antd.css';
+
+
+.svgStyle{
+  width: 495px;
+  height: 455px;
+  background: #ffffff;
+}
+
+.triangle{
+  fill:none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.invisible{
+  display: none;
+}
+
+
+.P0{
+  fill: #B5EAEA;
+  stroke: #2d2d2d;
+  stroke-width: 1px;
+}
+
+.P1{
+  fill: #FFBCBC;
+  stroke: #2d2d2d;
+  stroke-width: 1px;
+}
+
+
+.P00{
+  fill: #B5EAEA;
+  stroke: #2d2d2d;
+  stroke-width: 1px;
+}
+
+.P01{
+  fill: #ffccc6;
+  stroke: #2d2d2d;
+  stroke-width: 1px;
+}
+
+
+.P10{
+  fill: #F9F3EE;
+  stroke: #2d2d2d;
+  stroke-width: 1px;
+}
+
+.P11{
+  fill: #F7DBF0;
+  stroke: #2d2d2d;
+  stroke-width: 1px;
+}
+
+
+
+.base_triangle{
+  stroke: #2d2d2d;
+  stroke-width: 2px;
+  fill: white;
+  stroke-dasharray: 4;
+
+}
+
+.shoulders{
+  fill: white;
+}
+
+
+.alpha_triangle{
+  stroke: #000000;
+}
+
+.beta_triangle{
+  stroke: #000000;
+}
+
+
+.real_part{
+  stroke: #2d2d2d;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  cursor: pointer;
+}
+
+
+
+.ima_part {
+  stroke: #969696;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  cursor: pointer;
+
+}
+
+.layout{
+  width: 700px;
+  height: 500px;
+  border: solid 1px #000;
+border-radius: 5px;
+}
+
+.tool-title{
+  color: #ffffff;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-left:0.3em;
+line-height: 40px;
+  font-size: 1.9em;
+}
+
+
+
+.header{
+  height: 40px;
+  background: #5d5d5d;
+  border-radius: 5px;
+
+}
+
+.clayout{
+  /*border: solid 1px #000;*/
+
+}
+
+.sider{
+  border-radius: 5px;
+  border: solid 1px #888888;
+
+}
+
+.svg_container{
+  width: 500px;
+  height: 500px;
+}
+
+.form_container{
+  padding: 10px;
+}
+
+.values{
+  width: 65px;
+}
+
+.symbols{
+  font-size: 1.3em;
+  font-family: Cambria;
+}
+
+.tooltip{
+  border: solid 1px #000;
+  background: white;
+  border-radius: 5px;
+  min-width: 90px;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.appended_P0{
+  fill: #1e1eff;
+  stroke: #2d2d2d;
+  stroke-width: 1px;
+  stroke-dasharray: 4;
+  opacity: 0.1;
+}
+.appended_P1{
+  fill: #ff252a;
+  stroke: #2d2d2d;
+  stroke-width: 1px;
+  stroke-dasharray: 4;
+  opacity: 0.1;
+}

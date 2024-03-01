@@ -120,7 +120,7 @@ class App extends Component {
 
     render(){
 
-
+    var link = <a href="https://yong-wang.org/" target="_blank">VIDA Lab</a>;
     return(
         <>
             <Content>
@@ -256,6 +256,7 @@ class App extends Component {
                     </Sider>
                 </Layout>
             </Layout>
+            <div>Powered by {link} at Singapore Management University</div>
         </>
     )
   }
